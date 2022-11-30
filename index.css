@@ -201,6 +201,7 @@ p {
 }
 
 footer {
+    height: auto;
     margin-top: auto;
     position: relative;
 }
