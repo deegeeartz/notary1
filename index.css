@@ -165,8 +165,9 @@ header img {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 800px;
+    height: auto;
     padding: 20px;
+    margin-top: auto;
 }
 
 .quest1 h2,
@@ -185,19 +186,23 @@ p {
     font-size: larger;
     width: 100%;
     padding: 10px;
+    /* position: absolute; */
+    position: relative;
 }
 
 .line {
     border-right: 2px solid rgb(160, 158, 158);
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     width: 2%;
     margin-left: 0%;
     padding-left: 0%;
+    position: relative;
 }
 
 footer {
     margin-top: auto;
+    position: relative;
 }
 
 #hom:hover {
